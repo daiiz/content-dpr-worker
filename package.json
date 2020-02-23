@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "content-dpr-worker",
+  "version": "1.0.0",
+  "description": "content-dpr-worker",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack index.js"
+  },
+  "author": "daiiz <da.iz.mg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "png-dpi-reader-writer": "^0.2.4"
+  }
+}
